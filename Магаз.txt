@@ -1,0 +1,35 @@
+Name SpiceAndWolf,
+type banner,
+price 400;
+
+Name SwordArtOnline, 
+type banner, 
+price 400;
+
+Name HaruhiSuzumiya,
+type banner,
+price 400;
+
+Name  HighSchoolDxD, 
+type  figure,
+price 3650;
+
+Name SpiredAway,
+type figure,
+price 4750;
+
+Name DragonKoboyashi,
+type figure,
+price 15000;
+
+Name ChainsawMan,
+type manga,
+price 6000;
+
+Name SteinsGate,
+type manga,
+price 2500;
+
+Name FullmetalAlchemist,
+type manga,
+price 4950

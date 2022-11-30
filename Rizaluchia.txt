@@ -1,0 +1,4 @@
+Name Rizaluchia
+Password 1234
+Balance 0
+status user
