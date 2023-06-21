@@ -144,15 +144,15 @@ def user_account(data):
         flag = True
         summary = 0
 
-        dict_p = [] # Блин НА ЭТО фикалий Я ПОТРАТИЛ ВЕСЬ ДЕНЬ ЧТОБЫ МОЖНО БЫЛО ВСЕ В ФАЙЛ ЗАСУНУТЬ (В ТГ ВСЕ ОБЬЯСНЮ КАК РАБОТАЕТ)
-        cart_bl = [] # Просто католог для того чтобы слдить за ценой всего в корзине
+        dict_p = []
+        cart_bl = []
 
         data_shop={}
         while(flag): 
 
             print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~","Your balance know: ", balance,"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
-            file = open("Магаз.txt","r")
+            file = open("Shop.txt","r")
             arr_store=file.read().split(";")
             
             for x in range(len(arr_store)):
